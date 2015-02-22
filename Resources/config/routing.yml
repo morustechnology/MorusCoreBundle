@@ -1,0 +1,7 @@
+morus_core_locale_switched:
+    path:     /locale/switched/{locale}
+    defaults: { _controller: MorusCoreBundle:Locale:switched, locale: zh_HK }
+
+morus_core_locale_switch:
+    path: /locale/{locale}
+    defaults: { _controller: MorusCoreBundle:Locale:switch, locale: zh_HK }

@@ -1,0 +1,26 @@
+{
+    "name": "morustech/morus-core-bundle",
+    "type" : "symfony-bundle",
+    "description" : "Morus Core Bundle",
+    "keywords": [ "Morus Core Bundle" ],
+    "homepage": "https://github.com/morustechnology/MorusCoreBundle",
+    "license" : [ "MIT" ],
+    "authors" : [{
+        "name" : "Michael Fong",
+        "email" : "michael@morus.co"
+    }],
+    "require": {
+		"php": ">=5.3.2",
+		"symfony/framework-bundle": "~2.1",
+		"symfony/form": "~2.1"
+	},
+    "autoload" : {
+        "psr-0" : { "Morus\\CoreBundle" : "" }
+    },
+    "target-dir" : "Morus/CoreBundle",
+    "extra" : {
+    "branch-alias" : {
+        
+        }
+    }
+}
